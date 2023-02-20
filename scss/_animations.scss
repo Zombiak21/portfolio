@@ -1,0 +1,19 @@
+@keyframes navItemsAnimation {
+    from {
+        transform: translateX(200%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes avatarAnimation {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}
