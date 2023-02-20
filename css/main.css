@@ -161,11 +161,26 @@ body {
   align-items: center;
   margin-top: 2em;
 }
+.header__wrapper .header__items .header__item-info .socials .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1em;
+  height: 2.5em;
+  width: 2.5em;
+  background-color: #222;
+  border-radius: 2em;
+  transition: 0.3s;
+}
+.header__wrapper .header__items .header__item-info .socials .social:hover {
+  box-shadow: 0px 0px 20px 0.5px rgba(126, 222, 225, 0.15);
+  transform: scale(1.2);
+}
 .header__wrapper .header__items .header__item-avatar {
   width: 200px;
   height: 200px;
   margin-top: 2em;
-  background-image: url("../img/avatar.png");
+  background-image: url("../img/avatar/avatar.png");
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 100%;
